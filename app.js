@@ -134,50 +134,32 @@ document.addEventListener('DOMContentLoaded', () => {
      * 3. Dynamic Color Showcase Section (5 colors)
      * --------------------------------------------------------- */
     const colorData = {
-        pink: {
-            engName: "Blossom Pink",
-            korName: "블라썸 핑크",
-            desc: "화사하고 포근한 벚꽃의 감성을 담은 핑크. 매일 아침 메이크업 시간을 더욱 기분 좋고 설레게 만드는 시그니처 컬러입니다.",
-            originalPrice: "₩45,000",
-            salePrice: "₩38,250",
-            discount: "15% OFF",
-            glowColor: "#e8c5c8"
-        },
-        blue: {
-            engName: "Indigo Blue",
-            korName: "인디고 블루",
-            desc: "깊고 지적인 밤하늘을 표현한 블루. 때가 잘 타지 않고 시크하며, 남녀노소 상관없이 모던한 세련미를 자아내는 베스트셀러 컬러입니다.",
-            originalPrice: "₩45,000",
-            salePrice: "₩38,250",
-            discount: "15% OFF",
-            glowColor: "#1d2d44"
-        },
-        beige: {
-            engName: "Sandy Beige",
-            korName: "샌디 베이지",
-            desc: "부드럽고 차분한 모래사장에서 영감을 얻은 샌디 베이지. 내추럴한 인테리어와 화장대에 녹아들며 클래식한 차분함을 돋보이게 합니다.",
-            originalPrice: "₩45,000",
-            salePrice: "₩38,250",
-            discount: "15% OFF",
-            glowColor: "#a87c5c"
-        },
-        brown: {
-            engName: "Classic Brown",
-            korName: "클래식 브라운",
-            desc: "시간이 흘러도 변치 않는 깊이감을 담은 브라운. 프리미엄 나일론의 고급스러운 은은한 광택과 어우러져 한층 차분하고 묵직한 멋을 줍니다.",
-            originalPrice: "₩48,000",
-            salePrice: "₩40,800",
-            discount: "15% OFF",
-            glowColor: "#6e473b"
-        },
         ivory: {
             engName: "Warm Ivory",
             korName: "웜 아이보리",
             desc: "깨끗하고 부드러운 일상의 순수함을 닮은 웜 아이보리. 어떤 소품이나 가방과도 완벽하게 조화를 이루며 세련된 감성 라이프를 완성합니다.",
-            originalPrice: "₩48,000",
-            salePrice: "₩40,800",
+            originalPrice: "₩45,000",
+            salePrice: "₩38,250",
             discount: "15% OFF",
             glowColor: "#f7f4ef"
+        },
+        black: {
+            engName: "Charcoal Black",
+            korName: "차콜 블랙",
+            desc: "시크하고 깊이 있는 도시의 밤을 연상시키는 차콜 블랙. 유행을 타지 않고 먼지나 오염에 가장 강해 매일 부담 없이 쓸 수 있습니다.",
+            originalPrice: "₩45,000",
+            salePrice: "₩38,250",
+            discount: "15% OFF",
+            glowColor: "#1e1d1a"
+        },
+        brown: {
+            engName: "Classic Brown",
+            korName: "클래식 브라운",
+            desc: "시간이 흘러도 변치 않는 깊이감을 담은 클래식 브라운. 프리미엄 나일론의 광택과 어우러져 한층 묵직하고 따스한 감성을 줍니다.",
+            originalPrice: "₩45,000",
+            salePrice: "₩38,250",
+            discount: "15% OFF",
+            glowColor: "#6e473b"
         }
     };
 
