@@ -84,7 +84,7 @@ export default function FAQ() {
                   onClick={() => toggle(idx)}
                   className="w-full flex items-center justify-between p-6 md:p-8 text-left focus:outline-none"
                 >
-                  <span className="font-heading font-bold text-brand-black text-sm md:text-base">
+                  <span className="font-heading font-bold text-brand-black text-base md:text-lg">
                     {faq.q}
                   </span>
                   <ChevronDown 
@@ -98,7 +98,7 @@ export default function FAQ() {
                     isOpen ? 'max-h-[300px] border-t border-neutral-50' : 'max-h-0'
                   }`}
                 >
-                  <p className="p-6 md:p-8 text-neutral-500 font-medium text-xs md:text-sm leading-relaxed bg-neutral-50/30">
+                  <p className="p-6 md:p-8 text-neutral-600 font-medium text-sm md:text-base leading-relaxed bg-neutral-50/30">
                     {faq.a}
                   </p>
                 </div>

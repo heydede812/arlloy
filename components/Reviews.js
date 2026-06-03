@@ -35,7 +35,7 @@ export default function Reviews() {
           <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-brand-black tracking-tight leading-tight">
             ARLLOY 고객들의 리얼 후기
           </h2>
-          <p className="text-neutral-500 font-medium text-sm md:text-base mt-4">
+          <p className="text-neutral-600 font-medium text-base md:text-lg mt-4">
             직접 수납의 편리함을 경험한 실사용자분들의 검증된 후기입니다.
           </p>
         </div>
@@ -54,20 +54,20 @@ export default function Reviews() {
                   ))}
                 </div>
 
-                <h3 className="text-lg font-heading font-bold text-brand-black mb-4">
+                <h3 className="text-xl font-heading font-bold text-brand-black mb-4">
                   &ldquo;{rev.title}&rdquo;
                 </h3>
-                <p className="text-neutral-500 font-medium text-sm leading-relaxed mb-6">
+                <p className="text-neutral-600 font-medium text-sm md:text-base leading-relaxed mb-6">
                   {rev.text}
                 </p>
               </div>
 
               <div className="flex items-center justify-between border-t border-neutral-200/50 pt-5">
                 <div>
-                  <span className="text-xs font-bold text-brand-black block">{rev.author}</span>
-                  <span className="text-[10px] text-neutral-400 font-medium">{rev.job}</span>
+                  <span className="text-sm font-bold text-brand-black block">{rev.author}</span>
+                  <span className="text-xs text-neutral-400 font-medium">{rev.job}</span>
                 </div>
-                <span className="text-[10px] font-bold text-brand-lavender bg-brand-lavender/10 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                <span className="text-xs font-bold text-brand-lavender bg-brand-lavender/10 px-2.5 py-1 rounded-full uppercase tracking-wider">
                   {rev.tag}
                 </span>
               </div>

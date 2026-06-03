@@ -34,7 +34,7 @@ export default function PainPoints() {
           <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-brand-black tracking-tight leading-tight">
             여행 갈 때 <br className="sm:hidden" /> 이런 경험 있으신가요?
           </h2>
-          <p className="text-neutral-500 font-medium text-sm md:text-base mt-4">
+          <p className="text-neutral-600 font-medium text-base md:text-lg mt-4">
             기존 파우치들의 고질적인 불편함, 더 우아한 방법으로 해결할 수 있습니다.
           </p>
         </div>
@@ -49,10 +49,10 @@ export default function PainPoints() {
                 {prob.icon}
               </div>
               <div>
-                <h3 className="text-lg font-heading font-bold text-brand-black mb-2">
+                <h3 className="text-xl font-heading font-bold text-brand-black mb-2">
                   {prob.title}
                 </h3>
-                <p className="text-neutral-500 font-medium text-sm leading-relaxed">
+                <p className="text-neutral-600 font-medium text-sm md:text-base leading-relaxed">
                   {prob.desc}
                 </p>
               </div>

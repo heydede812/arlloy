@@ -40,7 +40,7 @@ export default function Solution() {
           <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-brand-black tracking-tight leading-tight">
             ARLLOY 파우치는 다릅니다.
           </h2>
-          <p className="text-neutral-500 font-medium text-sm md:text-base mt-4">
+          <p className="text-neutral-600 font-medium text-base md:text-lg mt-4">
             공간을 나누고 가치를 채우는 특허받은 3단 독립형 수납 설계를 확인해 보세요.
           </p>
         </div>
@@ -73,7 +73,7 @@ export default function Solution() {
                   }`}>
                     {tier.title}
                   </h3>
-                  <p className="text-xs text-neutral-400 font-medium mt-0.5">
+                  <p className="text-xs md:text-sm text-neutral-500 font-medium mt-0.5">
                     {tier.sub}
                   </p>
                 </div>
@@ -85,13 +85,13 @@ export default function Solution() {
           <div className="lg:col-span-7">
             <div className="bg-brand-light-gray p-8 md:p-12 rounded-3xl border border-neutral-100 flex flex-col justify-between min-h-[380px]">
               <div>
-                <span className="text-xs font-bold text-brand-lavender tracking-wider uppercase block mb-4">
+                <span className="text-xs md:text-sm font-bold text-brand-lavender tracking-wider uppercase block mb-4">
                   {tiers[activeTab].sub}
                 </span>
                 <h3 className="text-2xl md:text-3xl font-heading font-extrabold text-brand-black mb-6">
                   {tiers[activeTab].title}
                 </h3>
-                <p className="text-neutral-500 font-medium text-sm md:text-base leading-relaxed mb-8">
+                <p className="text-neutral-700 font-medium text-base md:text-lg leading-relaxed mb-8">
                   {tiers[activeTab].desc}
                 </p>
               </div>

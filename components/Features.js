@@ -44,7 +44,7 @@ export default function Features() {
           <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-brand-black tracking-tight leading-tight">
             우아함을 더하는 디테일 기능
           </h2>
-          <p className="text-neutral-500 font-medium text-sm md:text-base mt-4">
+          <p className="text-neutral-600 font-medium text-base md:text-lg mt-4">
             단순히 담는 파우치를 넘어, 완벽한 사용자 편의를 위해 디테일하게 설계된 ARLLOY의 가치를 확인해 보세요.
           </p>
         </div>
@@ -58,10 +58,10 @@ export default function Features() {
               <div className="w-12 h-12 rounded-xl bg-brand-lavender/5 flex items-center justify-center mb-6">
                 {feat.icon}
               </div>
-              <h3 className="text-lg font-heading font-bold text-brand-black mb-3">
+              <h3 className="text-xl font-heading font-bold text-brand-black mb-3">
                 {feat.title}
               </h3>
-              <p className="text-neutral-500 font-medium text-sm leading-relaxed">
+              <p className="text-neutral-600 font-medium text-sm md:text-base leading-relaxed">
                 {feat.desc}
               </p>
             </div>

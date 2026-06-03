@@ -23,7 +23,7 @@ export default function StorageTest() {
             <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-brand-black tracking-tight leading-tight mb-4">
               이 모든 것이 <br /> 들어갑니다.
             </h2>
-            <p className="text-neutral-500 font-medium text-sm md:text-base mb-8 leading-relaxed">
+            <p className="text-neutral-600 font-medium text-base md:text-lg mb-8 leading-relaxed">
               화장품뿐만 아니라 여행에 꼭 필요한 전자기기 충전 세트까지. 넉넉하고 안전하게 한곳에 수납해 가방 부피를 50% 줄여보세요.
             </p>
 
@@ -37,7 +37,7 @@ export default function StorageTest() {
                     <Check size={12} strokeWidth={3} />
                   </div>
                   <div className="flex items-baseline justify-between w-full">
-                    <span className="font-heading font-bold text-brand-black text-sm md:text-base">
+                    <span className="font-heading font-bold text-brand-black text-base md:text-lg">
                       {item.name}
                     </span>
                     <span className="text-[10px] md:text-xs font-semibold text-brand-gray tracking-wider uppercase">
