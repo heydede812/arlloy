@@ -42,7 +42,7 @@ export const metadata = {
     google: 'YOUR_GOOGLE_VERIFICATION_CODE',
   },
   other: {
-    'naver-site-verification': 'YOUR_NAVER_VERIFICATION_CODE',
+    'naver-site-verification': '99cf5b4d74e60d719cebadbcb55577e273d89868',
   }
 }
 
